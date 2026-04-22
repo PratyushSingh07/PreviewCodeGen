@@ -17,3 +17,4 @@ local.properties
 build/
 processor/build
 annotations/build
+processor/src/main/kotlin/com/previewcodegen/processor/MainProjectUtils.kt

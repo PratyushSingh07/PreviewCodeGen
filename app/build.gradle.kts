@@ -40,6 +40,14 @@ android {
     }
 }
 
+/**
+ * KSP configuration - output to source directory
+ */
+ksp {
+    arg("outputDir", "${projectDir}/src/main/java")
+    arg("outputPackage", "com.android.previewcodegen")
+}
+
 dependencies {
     // Preview CodeGen
     implementation(project(":annotations"))
