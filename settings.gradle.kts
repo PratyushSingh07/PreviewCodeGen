@@ -24,4 +24,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "PreviewCodeGen"
 include(":app")
- 
+include(":annotations")
+include(":processor")
